@@ -11,6 +11,7 @@
     height: fit-content;
   }
 }
+
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -40,11 +41,13 @@
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+    justify-content: center;
   }
   .about-containers {
     margin-top: 0;
   }
 }
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -53,6 +56,9 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
+  }
+  #projects {
+    margin: 0 20px;
   }
   article {
     font-size: 1rem;
@@ -99,6 +105,11 @@
     text-align: justify;
   }
   .experience-details-container {
-    margin: 20px 10px;
+    margin: 10px;
+  }
+  .about-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
